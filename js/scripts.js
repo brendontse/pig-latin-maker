@@ -9,17 +9,13 @@ $(document).ready(function(){
     var vowels = ['a', 'e', 'i', 'o', 'u', 'y'];
     var consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'];
 
-    vowels.forEach(function(vowel) {
-      if (userInput.charAt(0) === vowel) {
-        var output = (userInput + "way");
-        console.log(output);
-      }
-});
-    //
-    // } else if
-    // }
-    //  else {
-    //   alert("Please enter a sentence with alphabetical characters")
-    // };
+    if (true) {
+
+    } else if (vowels.includes(userInput)) {
+      var output = (userInput + "way");
+
+    } else {
+      alert("Please enter a sentence with alphabetical characters")
+    };
   });
 });
