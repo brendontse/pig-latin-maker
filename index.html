@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <title>Pig Latin</title>
   </head>
+    <div class="container">
+      <h1>Pig Latin Translator</h1>
+      <form id="pig-latin">
+        <div class="form-group">
+          <label for="user-input">Enter a sentence you would like translated into Pig Latin</label>
+          <input id="user-input" type="text">
+        </div>
+        <button type="submit" class="btn btn-info">Translate!</button>
 
+      </form>
+      <div id="result">
+        <!-- this is the output box -->
+      </div>
+    </div>
   <body>
 
   </body>
